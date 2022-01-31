@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    color: #707070;
+    text-align: center;
+}
+
+h1{
+    color: #3B3B3B;
+    font-size: 2em;
+}
+
+h3{
+    color: #3B3B3B;
+    font-size: 1.375em;
+}
+
+/******************************/
+/* Estilos de Header          */
+/******************************/
+
+#header{
+    background-color: #ececec;
+}
+
+.link-menu{
+    color: #707070;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6984e6;
+}
+
+/******************************/
+/* Estilos de principal       */
+/******************************/
+
+#principal{
+    margin-top: 3.125em;
+    min-height: calc(100vh - 4.6875em);
+}
+
+/******************************/
+/* Estilos de producto        */
+/******************************/
+
+#producto{
+    background: -webkit-linear-gradient(90deg, #6859ea 10%, #6acbe0 90%);
+    background: -moz-linear-gradient(90deg, #6859ea 10%, #6acbe0 90%);
+    background: linear-gradient(90deg, #6859ea 10%, #6acbe0 90%);
+    color: #fffFFF;
+}
+
+.espacio-row{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+/******************************/
+/* Estilos del footer         */
+/******************************/
+
+#footer {
+    background: #3b3b3b;
+    color: #fffFFF;
+    height: 4.6875em;
+}
+
+
+
+
+
