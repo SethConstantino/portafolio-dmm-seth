@@ -24,9 +24,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                  <a class="nav-link active link-menu" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link link-menu" aria-current="page" href="index.html">Inicio</a>
                   <a class="nav-link link-menu" href="producto.html">Producto</a>
-                  <a class="nav-link link-menu" href="contacto.html">Contacto</a>
+                  <a class="nav-link active link-menu" href="contacto.html">Contacto</a>
                   
                 </div>
               </div>
@@ -34,21 +34,40 @@
           </nav>
     </header>
 
-    <section id="principal">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-sm-6">
-            <img src="images/watch/watch1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-sm-6">
-            <h1>Relojes inteligentes</h1>
-            <p>
-              Tanto si quieres compar un SmartWatch barato como uno de lujo,
-              tendrás muchas opciones para elegir diseño
-            </p>
-          </div>
+    <section id="contacto">
+      <div class="container espacio-row">
+        <div class="row justify-content-md-center espacio-row">
+            <div class="col-sm-6">
+                <h1>
+                    Ponte en contacto
+                </h1>
+                <p>
+                    Nos interesa conocer tu opinión, sugerencias, quejas y responder a tus preguntas.
+                </p>
+                <div class="mb-3">
+                    <input name="nombre" id="nombre" class="form-control" placeholder="Nombre">
+                </div>
+
+                <div class="mb-3">
+                    <input name="correo" id="correo" class="form-control" placeholder="Correo electrónico">
+                </div>
+
+                <div class="mb-3">
+                    <input name="asunto" id="asunto" class="form-control" placeholder="Asunto">
+                </div>
+
+                <div class="mb-3">
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3" name="enviar" id="enviar">Enviar</button>
+                  </div>
+
+            </div>
         </div>
-      </div>
+
+    </div>
 
     </section>
 
