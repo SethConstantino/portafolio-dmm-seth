@@ -46,6 +46,7 @@ a:hover{
 #principal{
     margin-top: 3.125em;
     min-height: calc(100vh - 4.6875em);
+    margin-bottom: 3.125em;
 }
 
 /******************************/
